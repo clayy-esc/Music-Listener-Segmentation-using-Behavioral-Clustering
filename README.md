@@ -10,7 +10,7 @@ This project builds and validates an unsupervised KMeans model that segments 4,0
 
 - **Source**: [Music Streaming Habits 2026](https://www.kaggle.com/datasets/uditjain13/music-streaming-habits-2026) (Kaggle)
 - **Size**: 4,000 rows × 15 columns, no missing values
-- **Contents**: per-listener behavior (daily listening minutes, songs/day, playlists, skip rate, discovery/offline/podcast usage) alongside demographic and taste attributes (age, country, platform, subscription, top genre, top mood, top artist)
+- **Contents**: per-listener behavior (daily listening minutes, songs/day, playlists, skip rate, discovery/offline/podcast usage) alongside demographic and taste attributes (age, country, platform, subscription, top genre, top mood)
 
 See [`docs/data_dictionary.md`](docs/data_dictionary.md) for the full column-by-column description.
 
