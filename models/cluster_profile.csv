@@ -1,0 +1,7 @@
+cluster,persona_name,daily_listening_minutes,playlists_count,skip_rate_pct,average_song_length_log,size,discover_weekly_user_rate,uses_offline_mode_rate,podcasts_too_rate,description
+4,The Loyalists,168.31,7.62,16.81,1.51,1087,0.53,0.43,0.47,"Listens for long stretches and rarely skips tracks, suggesting genuine satisfaction with what's playing rather than active searching."
+3,The Restless Browsers,154.89,7.33,38.85,1.52,1068,0.56,0.46,0.46,"Listens for long stretches but skips often, suggesting ongoing exploration or unsettled taste despite heavy platform use."
+1,The Curators,165.14,12.69,29.11,1.52,892,0.6,0.42,0.47,"Listens heavily and actively maintains many playlists, reflecting a hands-on, organized approach to curating music."
+5,The Quick Spinners,64.84,9.23,28.01,1.28,471,0.6,0.41,0.47,"Listens for moderate stretches with short tracks, consistent with favoring shorter-form content or switching frequently."
+0,The Deep Listeners,66.76,8.68,28.7,1.86,375,0.59,0.41,0.45,"Listens for moderate stretches with longer tracks, consistent with fewer, more immersive listening sessions."
+2,The Long-Form Listeners,33.14,8.78,27.75,2.71,107,0.61,0.4,0.58,"Listens for shorter stretches overall but favors unusually long tracks and podcasts, consistent with long-form audio content rather than typical song-by-song listening."
