@@ -39,7 +39,7 @@ See [`docs/data_dictionary.md`](docs/data_dictionary.md) for the full column-by-
 ## Repository structure
 
 ```
-music-listener-segmentation/
+Music-Listener-Segmentation-with-Behavioral-Clustering/
 ├── README.md
 ├── requirements.txt
 ├── notebooks/
