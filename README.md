@@ -89,7 +89,7 @@ pip install -r requirements.txt
 ## Usage
 
 ### Run the full analysis
-Open `notebooks/music-listener-segmentation-behavioral-clustering.ipynb` in Jupyter or upload it to Kaggle with the dataset attached, and run top to bottom.
+Open `notebooks/music-listener-segmentation-behavioral-clustering.ipynb` in Jupyter or Google Colab.
 
 ### Use the trained model on new data
 ```python
