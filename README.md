@@ -39,7 +39,7 @@ See [`docs/data_dictionary.md`](docs/data_dictionary.md) for the full column-by-
 ## Repository structure
 
 ```
-Music-Listener-Segmentation-with-Behavioral-Clustering/
+Music-Listener-Segmentation-using-Behavioral-Clustering/
 ├── README.md
 ├── requirements.txt
 ├── notebooks/
@@ -66,7 +66,7 @@ The notebook is organized as a linear, reproducible pipeline:
 5. **Feature Engineering** — resolves a 0.98 correlation between `daily_listening_minutes` and `songs_per_day` by deriving `average_song_length`, log-transforming it, and capping extreme values at the 99th percentile
 6. **Preprocessing** — `RobustScaler` for skewed features, `StandardScaler` for near-normal ones, combined via `ColumnTransformer`
 7. **Model Selection** — K-Means evaluated across k = 2–8 using silhouette score; k = 2 excluded as a degenerate, outlier-driven split
-8. **Fit Final Model** — K-Means with k = 6, validated for stability across multiple random seeds
+8. **Fit Final Model** — K-Means with k = 6, validates clusters reflect meaningful behavioral patterns
 9. **Bias/Validity Check** — confirms clusters are not re-encoding age, country, platform, or subscription
 10. **Cluster Profiling & Interpretation** — persona naming and write-ups based on each cluster's actual stats
 11. **Evaluation Summary** — final silhouette score and an honest discussion of what it means
@@ -77,8 +77,8 @@ The notebook is organized as a linear, reproducible pipeline:
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/music-listener-segmentation.git
-cd music-listener-segmentation
+git clone https://github.com/clayy-esc/Music-Listener-Segmentation-using-Behavioral-Clustering.git
+cd Music-Listener-Segmentation-using-Behavioral-Clustering
 
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
