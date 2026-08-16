@@ -1,6 +1,6 @@
-# Data Dictionary — Music Streaming Habits 2026
+# Data Dictionary: Music Streaming Habits 2026
 
-Source: [Kaggle — Music Streaming Habits 2026](https://www.kaggle.com/datasets/uditjain13/music-streaming-habits-2026)
+Source: [Music Streaming Habits 2026 (Kaggle)](https://www.kaggle.com/datasets/uditjain13/music-streaming-habits-2026)
 
 | Column | Description |
 |---|---|
